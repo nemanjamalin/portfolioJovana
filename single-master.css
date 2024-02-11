@@ -1,0 +1,10 @@
+.main-section{
+    margin-top: 50px;
+    max-height: 800px;
+    /* border: 2px solid black; */
+}
+
+.description-block{
+    background-color: #FFFFC2;
+    height: 600px;
+}
