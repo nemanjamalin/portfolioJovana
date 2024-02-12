@@ -1,171 +1,41 @@
 .hero-section{
-    width: 100%;
-    /* border: 1px solid black; */
-    height: 100%;
-    display: flex;
+    /* margin-top: 50px; */
+    max-width: 1200px;
+    margin: 100px auto;
 }
 
-.hero-section .part{
-    border-right: 1px solid black;
-    width: 50%;
-    padding: 30px;
-    background-color: #5e727e;
-    margin-top: 30px;
+
+.read-more{
+   display: flex;
+   justify-content: center;
 }
-.hero-section .part .content{
+
+.content h1, .content p{
     text-align: center;
-    color: #263037;
+    margin-bottom: 1rem;
 }
 
-.hero-section .about{
-    display: flex;
+.content .about-me{
+    margin: 3.25rem auto;
 }
 
-
-.hero-section .about .content{
-    margin-left: 70px;
-}
-
-
-.hero-section .about .content p{
+.content .about-me p{
     text-align: left;
-    margin-bottom: 20px;
 }
 
-.hero-section .about .content a{
+.content img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+
+
+.content .actions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content a{
     display: inline-block;
-    text-decoration: none;
-   color: #263037;
-   font-size: 20px;
-   margin-top: 15px;
-
-}
-
-
-.hero-section .about .about-image img{
-    width: 300px;
-    height: 200px;
-    margin-left: 40px;
-    margin-top: 50px
-}
-
-.hero-section .about .content h1{
-    margin-bottom: 20px;
-}
-
-.hero-section .map{
-    padding-left: 0px;
-}
-.hero-section .map h1{
-    margin-bottom: 30px;
-}
-
-.hero-section .map .map-image {
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.hero-section .map .map-image img{
-    width: 100px;
-    height: 100px;
-}
-
-.hero-section .map .actions{
-    display: flex;
-    justify-content: center;
-    padding-top: 69px;
-}
-
-.hero-section .map .actions a{
-   text-decoration: none;
-   color: #263037;
-   font-size: 20px;
-}
-
-.hero-section .map .actions .download{
-    margin-right: 55px;
- }
-
- .hero-section .map .actions .read{
-    margin-left: 55px;
- }
-
-
- @media (max-width: 1500px) {
-    .hero-section .about{
-        display: block;
-    }
-    .hero-section .about img{
-        display: none;
-    }
-    
-  }
-
-@media (max-width: 1400px){
-    .hero-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .hero-section .part{
-        width: 70%;
-    }
-   
-}
-
-
-@media (max-width: 1100px){
-
-    .hero-section .part{
-        width: 100%;
-    }
-    .hero-section .about .content a{
-        margin-right: 30px;
-    }
-}
-
-@media (max-width: 550px){
-
-    .hero-section .about .content{
-        margin-inline-start: 23px;
-    }
-    .hero-section .about .content a{
-        margin-top: 25px;
-    }
-
-    .hero-section .map .actions{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .hero-section .map .actions .download{
-        margin-left: 65px;
-    }
-    .hero-section .map .actions .read{
-        margin-right: 47px;
-        margin-top: 20px;
-    }
-}
-
-.hero-section a{
-    border: 1px solid #36454F;
-    padding: 10px 7px;
-}
-
-
-.hero-section .about .content a:hover{
-    border: none;
-    color: #5e727e;
-    transition: 0.3s;
-    background-color: #36454F;
-}
-.hero-section .map .actions a:hover{
-    border: none;
-    color: #5e727e;
-    transition: 0.3s;
-    background-color: #36454F;
 }
