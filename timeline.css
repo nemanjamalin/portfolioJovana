@@ -11,7 +11,7 @@ body{
     max-width: 1200px;
     margin: 100px auto;
 }
-.container{
+.container-box{
     padding: 10px 50px;
     position: relative;
     width: 50%;
@@ -29,26 +29,26 @@ body{
     }
 }
 
-.container:nth-child(1){
+.container-box:nth-child(1){
     animation-delay: 0s;
 }
-.container:nth-child(2){
+.container-box:nth-child(2){
     animation-delay: 1s;
 }
 
-.container:nth-child(3){
+.container-box:nth-child(3){
     animation-delay: 2s;
 }
 
-.container:nth-child(4){
+.container-box:nth-child(4){
     animation-delay: 3s;
 }
 
-.container:nth-child(5){
+.container-box:nth-child(5){
     animation-delay: 4s;
 }
 
-.container:nth-child(6){
+.container-box:nth-child(6){
     animation-delay: 5s;
 }
 
@@ -72,7 +72,7 @@ body{
 .right-container{
     left: 50%;
 }
-.container .year{
+.container-box .year{
     position: absolute;
     width: 60px;
     /* border: solid #AAA 1px; */
@@ -153,7 +153,7 @@ body{
     .timeline::after{
         left: 31px;
     }
-    .container{
+    .container-box{
         width: 100%;
         padding-left: 80px;
         padding-right: 25px;
@@ -175,7 +175,7 @@ body{
         border-left: 0;
         left: -15px;
     }
-    .container .year{
+    .container-box .year{
         width: 50px;
         /* right: -30px; */
         left: 6px;
