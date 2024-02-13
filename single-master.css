@@ -1,4 +1,4 @@
-.main-section{
+.main-section2{
     margin-top: 50px;
     max-height: 800px;
     /* border: 2px solid black; */
@@ -6,5 +6,76 @@
 
 .description-block{
     background-color: #FFFFC2;
-    height: 600px;
+    /* height: 600px; */
+    max-height: 37.5rem; 
+    max-width: 18.75rem;
+    /* border: 1px solid black; */
+    margin-right: 0;
+    padding-bottom: 1rem;
+}
+
+.description-block h2{
+ text-align: center;
+ margin-bottom: 1rem;
+}
+
+
+/* some kind of responsive */
+@media(max-width:1200px){
+    .slider{
+        width: 600px;
+        height: 400px;
+    }
+    .slide{
+        width: 600px;
+        height: 400px;
+        top: 1rem;
+    }
+}
+
+@media(max-width:1000px){
+    .slider{
+        width: 400px;
+        height: 250px;
+    }
+    .slide{
+        width: 400px;
+        height: 250px;
+        top: 1rem;
+    }
+}
+
+
+@media(max-width:770px){
+    .description-block{
+        margin: auto;
+    }
+    .slider{
+        width: 400px;
+        height: 250px;
+        margin:auto;
+    }
+    .slide{
+        width: 400px;
+        height: 250px;
+        margin:auto;
+        top: 1rem;
+    }
+    .dots{
+        display: none;
+    }
+}
+
+@media(max-width:400px){
+    .slider{
+        width: 300px;
+        height: 200px;
+        margin:auto;
+    }
+    .slide{
+        width: 300px;
+        height: 200px;
+        top: 1rem;
+        margin:auto;
+    }
 }
