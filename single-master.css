@@ -8,10 +8,11 @@
     background-color: #FFFFC2;
     /* height: 600px; */
     max-height: 37.5rem; 
-    max-width: 18.75rem;
+    max-width: 13.2rem;
     /* border: 1px solid black; */
-    margin-right: 0;
+    margin-right: -0.75rem;
     padding-bottom: 1rem;
+    font-size: 15px;
 }
 
 .description-block h2{
@@ -22,6 +23,15 @@
 
 /* some kind of responsive */
 @media(max-width:1200px){
+
+    .description-block{
+        max-height: 24rem;
+        margin-top: 1rem;
+    }
+    .description-block p {
+        font-size: 12px;
+        margin-top: -1rem;
+    }
     .slider{
         width: 600px;
         height: 400px;
@@ -34,6 +44,14 @@
 }
 
 @media(max-width:1000px){
+
+    .description-block{
+        max-height: 15rem;
+        max-width: 17rem;
+    }
+    .description-block p {
+        font-size: 11px;
+    }
     .slider{
         width: 400px;
         height: 250px;
@@ -45,10 +63,31 @@
     }
 }
 
+@media(max-width:985px){
+    .description-block h2{
+        font-size: 16px;
+        text-decoration:solid;
+    }
+    .description-block p {
+        font-size: 9px;
+    }
+}
+
 
 @media(max-width:770px){
     .description-block{
         margin: auto;
+        max-height: 37.5rem;
+        max-width: 25rem;
+    }
+    .description-block h2{
+        font-size: 20px;
+        text-decoration:solid;
+       
+    }
+    .description-block p{
+        margin-top: 2rem;
+        font-size: 12px;
     }
     .slider{
         width: 400px;
