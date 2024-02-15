@@ -2,6 +2,11 @@
     /* margin-top: 50px; */
     max-width: 1200px;
     margin: 100px auto;
+    
+}
+
+.hero-section .content{
+    margin-left:2rem;
 }
 
 
@@ -16,7 +21,7 @@
 }
 
 .content .about-me{
-    margin: 3.25rem auto;
+    margin: 1.65rem auto;
 }
 
 .content .about-me p{
@@ -33,9 +38,31 @@
 
 .content .actions{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.content .actions .read{
+    margin-left: 5rem;
 }
 
 .content a{
     display: inline-block;
+}
+
+
+@media (max-width: 1300px){
+    .about-image img{
+        display: none;
+    }
+    .content img{
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media (max-width: 765px){
+    .about-section{
+        margin-bottom: 3rem;
+    }
 }
