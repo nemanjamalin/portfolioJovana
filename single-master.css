@@ -22,7 +22,7 @@
 
 
 /* some kind of responsive */
-@media(max-width:1200px){
+@media(max-width:1400px){
 
     .description-block{
         max-height: 24rem;
